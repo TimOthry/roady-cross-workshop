@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour
     // if true, then player is allowed to move forward
     private bool CanMove(Vector3 direction) {
         // Perform a raycast in the desired direction to detect obstacles
-        
+        return true;
     }
     
     private IEnumerator MovePlayer(Vector3 direction) {
