@@ -89,6 +89,7 @@ public class MyGrid
     // 3: rail
     // 4: light-river
     // The size of roads are 2x2 and the rest are 1x1 so take that into consideration when generating the chunk
+    // There is currently a basic script returning an array with fifteen 1s
     // Hint: Use a double number and System.Random
     private int[] GenerateChunk() {
         int length = GetHeight();
