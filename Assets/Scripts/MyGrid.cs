@@ -103,7 +103,7 @@ public class MyGrid
 
     // Task 2: Place a random obstacle on the grass tiles such as rocks, small trees, med trees, large trees
     // You do not have to check for there to be always a passabable row, if the player gets unlucky it 
-    // is what it is.
+    // is what it is. This function is called in GenerateMap
     // Hint check for if terrain is equal to 1 and use System.Random
     private void placeObstacle(int terrain, int x, int z) {
         
