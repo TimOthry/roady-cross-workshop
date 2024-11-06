@@ -39,14 +39,7 @@ public class Movement : MonoBehaviour
     // if true, then player is allowed to move forward
     private bool CanMove(Vector3 direction) {
         // Perform a raycast in the desired direction to detect obstacles
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, direction, out hit, dist, obstacleLayer)) {
-            // If the raycast hits something, the player can't move
-            Debug.Log("Obstacle in the way: " + hit.collider.name);
-            return false;
-        }
-        // No obstacle detected, allow movement
-        return true;
+        
     }
     
     private IEnumerator MovePlayer(Vector3 direction) {
